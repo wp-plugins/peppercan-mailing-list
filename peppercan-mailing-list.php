@@ -286,7 +286,7 @@ function peppercan_mailing_settings()
 	The <b>name of the mailing list</b> is the name who will appear in the form. You can choose another name than the real name of the Peppercan mailing list.
 	<br />
 	<br />
-	The <b>ID of the mailing list</b> is a number who permit to identify the mailing list. To have it, go on Peppercan, on the <em>Manage Mailing List</em> page and look at the URL. It should be like <b>http://yourcompany.peppercan.com/mailing/list_details/<span style="color: red">4</span></b>. Here, <b>4</b> is the mailing list ID.
+	The <b>ID of the mailing list</b> is a number who permit to identify the mailing list. To have it, go on Peppercan, on the <em>Manage Mailing List</em> page and look at the URL. It should be like <b>http://<?php echo get_option('peppercan_site_url');?>.peppercan.com/mailing/list_details/<span style="color: red">4</span></b>. Here, <b>4</b> is the mailing list ID.
 	</p>
 	
 	<br />
